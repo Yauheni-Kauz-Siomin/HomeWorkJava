@@ -41,7 +41,6 @@ public class task1 {
         Stack<String> st = new Stack<>();
         int num = minCount;
         while (num <= maxCount) {
-            // System.out.println(map);
             for (var item : map.entrySet()) {
                 if (item.getValue().size() == num) {
                     st.push(item.getKey());
